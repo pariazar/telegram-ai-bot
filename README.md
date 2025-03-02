@@ -43,14 +43,13 @@ source venv/bin/activate  # Linux/Mac
 # Install dependencies
 pip install -r requirements.txt
 
-# Configure environment
-cp .env.example .env
-# Edit .env with your credentials
 ```
 
 ### 2. Node.js Bot Setup
 ```bash
 # Install dependencies
+npm install
+OR
 npm install telegraf fastify @fastify/cors
 
 # Configure bot token
